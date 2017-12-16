@@ -8,4 +8,4 @@ class Item(models.Model):
     photo = models.ImageField()
 
     def __str__(self):
-        return self.title
+        return self.name

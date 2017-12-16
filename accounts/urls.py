@@ -8,4 +8,5 @@ urlpatterns = [
         'template_name': 'accounts/login.html',
     }),
     url(r'^profile/$', profile, name='profile'),
+
 ]
